@@ -161,19 +161,35 @@ main section{
     font-size: 30px;
     font-weight: 700;
 }
+.resume-container{
+    margin-top: 113px;
+    display: flex;
+    gap: 70px;
+}
 .resume-item-title{
     color: var(--Dark-02, #474747);
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 .resume-item-inst{
     color: var(--Dark-03, #757575);
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 .resume-item-des{
     color: var(--Dark-03, #757575);
     font-size: 16px;
     font-weight: 400;
     line-height: 28px; /* 175% */
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+.download-cv a{
+    text-decoration: none;
+    color: white;
 }
