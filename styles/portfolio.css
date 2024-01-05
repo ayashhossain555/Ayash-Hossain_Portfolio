@@ -36,7 +36,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 155px;
 }
 .nav_title{
     color: var(--Dark-01, #181818);
@@ -96,6 +96,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* About Section Styles */
 .about{
@@ -114,13 +117,63 @@ main{
 }
 .info-title{
     color: var(--Dark-03, #757575);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 30px; /* 150% */
 }
 .info-description{
     color: var(--Dark-02, #474747);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
     line-height: 30px;
+}
+#what-i-do-des{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px; 
+}
+.skill{
+    width: 267px;
+    height: 377px;
+    /* flex-shrink: 0; */
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    color: var(--Dark-01, #181818);
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-des{
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+/* Resume Section Styles */
+.resume-column-title{
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-item-title{
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-inst{
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-item-des{
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
 }
