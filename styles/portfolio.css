@@ -92,6 +92,10 @@ nav a{
 }
 
 /* Main Section Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About Section Styles */
 .about{
@@ -99,4 +103,24 @@ nav a{
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+.info-description{
+    color: var(--Dark-02, #474747);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
 }
